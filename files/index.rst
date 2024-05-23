@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Semicondutor physics's documentation!
+Welcome to the world of semiconuctor physics !
 ================================================
 
 ####
@@ -25,13 +25,14 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
+  
 * :ref:`search`
 
 #########
 はじめに
 #########
 このwebサイトは自身の勉強用に立ち上げました．
-まだテスト段階です.
+まだテスト段階です!
 
 *********
 免責事項
