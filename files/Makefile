@@ -18,3 +18,14 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# Add this to your Makefile
+SPHINXOPTS    = -W
+SPHINXBUILD   = sphinx-build
+SOURCEDIR     = .
+BUILDDIR      = _build
+
+latexpdf:
+	$(SPHINXBUILD) -b latex $(SPHINXOPTS) $(SOURCEDIR) $(BUILDDIR)/latex
+	@echo "Running LaTeX -> PDF"
+	@$(MAKE) -C $(BUILDDIR)/latex all-pdf

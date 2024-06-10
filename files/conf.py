@@ -13,7 +13,11 @@ author = 'Y.G'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -27,3 +31,27 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_css_files = ['header.css', 'table.css']
+
+# -- Options for LaTeX output ------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-latex-output
+
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    'preamble': r'''
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{graphicx}
+    ''',
+}
+
+master_doc = 'index'
+latex_documents = [
+    (master_doc, 'SemiconductorPhysics.tex', 'Semiconductor Physics Documentation',
+     'Y.G', 'manual'),
+]

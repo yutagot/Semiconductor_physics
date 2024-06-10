@@ -6,9 +6,9 @@
 Welcome to the world of semiconuctor physics !
 ================================================
 
-####
-目次
-####
+#######
+Index
+#######
 
 .. toctree::
    :maxdepth: 2
@@ -28,15 +28,5 @@ Indices and tables
   
 * :ref:`search`
 
-#########
-はじめに
-#########
-このwebサイトは自身の勉強用に立ち上げました．
-まだテスト段階です!
-
-*********
-免責事項
-*********
-本ページの掲載内容はできる限り正確に保つように努めていますが、掲載内容の正確性・完全性・信頼性・最新性を保証するものではございません。
-本ページに起因して読者および第三者に損害が発生したとしても、筆者は責任を負わないものとします。
-
+This documentation explains semiconuctor physics. 
+There will be updates soon...
