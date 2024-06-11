@@ -1,4 +1,4 @@
-Chapter 2-2
-===========
+Diffusion theory
+=================
 
 chap2-2.rst
