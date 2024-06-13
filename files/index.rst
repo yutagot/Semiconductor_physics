@@ -15,9 +15,9 @@ Index
    :caption: Contents:
    :numbered:
 
-   ./chap1
-   ./chap2
-   ./chap3
+   ./Schottky_barrier
+   ./Current_trasport
+   ./MIS_capacitor
 
 
 Indices and tables
