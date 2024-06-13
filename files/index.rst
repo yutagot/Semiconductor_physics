@@ -11,14 +11,11 @@ Index
 #######
 
 .. toctree::
-   :maxdepth: 2
    :caption: Contents:
-   :numbered:
 
    ./Schottky_barrier
    ./Current_trasport
    ./MIS_capacitor
-
 
 Indices and tables
 ==================
