@@ -11,14 +11,11 @@ Index
 #######
 
 .. toctree::
-   :maxdepth: 2
    :caption: Contents:
-   :numbered:
 
    ./Schottky_barrier
    ./Current_trasport
    ./MIS_capacitor
-
 
 Indices and tables
 ==================
@@ -29,4 +26,5 @@ Indices and tables
 * :ref:`search`
 
 This documentation explains semiconuctor physics. 
-There will be updates soon...
+There will be updates soon!!
+Stay tuned.
