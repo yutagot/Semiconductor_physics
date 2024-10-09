@@ -27,4 +27,4 @@ Indices and tables
 
 This documentation explains semiconuctor physics. 
 There will be updates soon!!
-Stay tuned.
+Stay tuned...
