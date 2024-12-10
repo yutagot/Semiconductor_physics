@@ -9,24 +9,15 @@ Physics of semiconductors
 #######
 Index
 #######
+
 .. toctree::
-   :caption: Contents:
+   :numbered:
 
    ./Basic_physics_of_semiconductors
    ./Basic_equation
-   ./Schottky_barrier
    ./MIS_structure
-   ./MIS_capacitor
    ./Bipolar_transistor
    ./MOSFET
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-  
-* :ref:`search`
 
 This documentation explains semiconuctor physics. 
 There will be updates soon!!

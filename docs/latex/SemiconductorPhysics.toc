@@ -2,9 +2,6 @@
 \contentsline {chapter}{\numberline {1}Index}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Basic physics of semiconductors}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Basic equations}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Schottky barrier}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}MIS structure}{1}{section.1.4}%
-\contentsline {section}{\numberline {1.5}MIS (Metal\sphinxhyphen {}Insulator\sphinxhyphen {}Semiconductor) capacitor}{1}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Bipolar transistor}{1}{section.1.6}%
-\contentsline {section}{\numberline {1.7}MOSFET}{1}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Indices and tables}{3}{chapter.2}%
+\contentsline {section}{\numberline {1.3}MIS structure}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Bipolar transistor}{1}{section.1.4}%
+\contentsline {section}{\numberline {1.5}MOSFET}{1}{section.1.5}%

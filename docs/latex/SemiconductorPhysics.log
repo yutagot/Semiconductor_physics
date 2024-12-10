@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  10 DEC 2024 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  10 DEC 2024 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,7 +180,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \c@AlphaDecCnt=\count278
 )
 (./sphinx.sty
-Package: sphinx 2024/07/01 v7.4.0 Sphinx LaTeX package (sphinx-doc)
+Package: sphinx 2024/10/11 v8.1.1 Sphinx LaTeX package (sphinx-doc)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
@@ -204,9 +204,9 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (./sphinxoptionshyperref.sty
-File: sphinxoptionshyperref.sty 2021/01/27 hyperref
+Package: sphinxoptionshyperref 2021/01/27 hyperref
 ) (./sphinxoptionsgeometry.sty
-File: sphinxoptionsgeometry.sty 2021/01/27 geometry
+Package: sphinxoptionsgeometry 2021/01/27 geometry
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -318,7 +318,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@width=\dimen163
 )
 (./sphinxlatexgraphics.sty
-File: sphinxlatexgraphics.sty 2021/01/27 graphics
+Package: sphinxlatexgraphics 2024/08/13 v8.1.0 graphics
 \spx@image@maxheight=\dimen164
 \spx@image@box=\box102
 ) (./sphinxpackageboxes.sty
@@ -372,7 +372,7 @@ Package: ellipse 2004/11/05 v1.0 .dtx ellipse file
 \spx@boxes@radius@bottomleft@y=\dimen191
 )
 (./sphinxlatexadmonitions.sty
-File: sphinxlatexadmonitions.sty 2024/07/01 v7.4.0 admonitions
+Package: sphinxlatexadmonitions 2024/10/11 v8.1.1 admonitions
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -382,20 +382,26 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen194
 \FrameSep=\dimen195
 )
-\spx@notice@border=\dimen196
-\c@sphinxtodo=\count291
+(./sphinxpackagefootnote.sty
+Package: sphinxpackagefootnote 2024/05/17 v7.3.x Sphinx custom footnotehyper pa
+ckage (Sphinx team)
+\FNH@notes=\box105
+\FNH@toks=\toks29
+\FNH@width=\dimen196
+\c@sphinxfootnotemark=\count291
 )
-(./sphinxlatexliterals.sty
-File: sphinxlatexliterals.sty 2024/07/01 v7.4.0 code-blocks and parsed literals
-
+\spx@notice@border=\dimen197
+\c@sphinxtodo=\count292
+) (./sphinxlatexliterals.sty
+Package: sphinxlatexliterals 2024/07/01 v7.4.0 code-blocks and parsed literals
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count292
+\FV@CodeLineNo=\count293
 \FV@InFile=\read3
-\FV@TabBox=\box105
-\c@FancyVerbLine=\count293
-\FV@StepNumber=\count294
+\FV@TabBox=\box106
+\c@FancyVerbLine=\count294
+\FV@StepNumber=\count295
 \FV@OutFile=\write3
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/alltt.sty
@@ -408,39 +414,39 @@ tim
 (/usr/local/texlive/2024/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\sphinxcontinuationbox=\box106
-\sphinxvisiblespacebox=\box107
-\sphinxVerbatim@TitleBox=\box108
-\sphinxVerbatim@ContentsBox=\box109
+\sphinxcontinuationbox=\box107
+\sphinxvisiblespacebox=\box108
+\sphinxVerbatim@TitleBox=\box109
+\sphinxVerbatim@ContentsBox=\box110
 )
 (./sphinxlatexshadowbox.sty
-File: sphinxlatexshadowbox.sty 2023/03/19 sphinxShadowBox
+Package: sphinxlatexshadowbox 2024/07/28 v8.1.0 sphinxShadowBox
 ) (./sphinxlatexcontainers.sty
-File: sphinxlatexcontainers.sty 2021/05/03 containers
+Package: sphinxlatexcontainers 2021/05/03 containers
 )
 (./sphinxhighlight.sty
 Package: sphinxhighlight 2022/06/30 stylesheet for highlighting with pygments
 ) (./sphinxlatextables.sty
-File: sphinxlatextables.sty 2024/07/01 v7.4.0 tables
+Package: sphinxlatextables 2024/07/01 v7.4.0 tables
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen197
-\ar@mcellbox=\box110
-\extrarowheight=\dimen198
-\NC@list=\toks29
+\col@sep=\dimen198
+\ar@mcellbox=\box111
+\extrarowheight=\dimen199
+\NC@list=\toks30
 \extratabsurround=\skip63
 \backup@length=\skip64
-\ar@cellbox=\box111
+\ar@cellbox=\box112
 )
-\TY@count=\count295
-\TY@linewidth=\dimen199
-\tymin=\dimen256
-\tymax=\dimen257
-\TY@tablewidth=\dimen258
+\TY@count=\count296
+\TY@linewidth=\dimen256
+\tymin=\dimen257
+\tymax=\dimen258
+\TY@tablewidth=\dimen259
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
@@ -448,83 +454,76 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip66
 \LTpre=\skip67
 \LTpost=\skip68
-\LTchunksize=\count296
-\LTcapwidth=\dimen259
-\LT@head=\box112
-\LT@firsthead=\box113
-\LT@foot=\box114
-\LT@lastfoot=\box115
-\LT@gbox=\box116
-\LT@cols=\count297
-\LT@rows=\count298
-\c@LT@tables=\count299
-\c@LT@chunks=\count300
-\LT@p@ftn=\toks30
+\LTchunksize=\count297
+\LTcapwidth=\dimen260
+\LT@head=\box113
+\LT@firsthead=\box114
+\LT@foot=\box115
+\LT@lastfoot=\box116
+\LT@gbox=\box117
+\LT@cols=\count298
+\LT@rows=\count299
+\c@LT@tables=\count300
+\c@LT@chunks=\count301
+\LT@p@ftn=\toks31
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box117
-\sift@deathcycles=\count301
-\@vwid@loff=\dimen260
-\@vwid@roff=\dimen261
+\@vwid@box=\box118
+\sift@deathcycles=\count302
+\@vwid@loff=\dimen261
+\@vwid@roff=\dimen262
 )
-\sphinx@TY@tablewidth=\dimen262
+\sphinx@TY@tablewidth=\dimen263
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
-\everycr=\toks31
+\everycr=\toks32
 \minrowclearance=\skip69
-\rownum=\count302
+\rownum=\count303
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen263
-\lightrulewidth=\dimen264
-\cmidrulewidth=\dimen265
-\belowrulesep=\dimen266
-\belowbottomsep=\dimen267
-\aboverulesep=\dimen268
-\abovetopsep=\dimen269
-\cmidrulesep=\dimen270
-\cmidrulekern=\dimen271
-\defaultaddspace=\dimen272
-\@cmidla=\count303
-\@cmidlb=\count304
-\@aboverulesep=\dimen273
-\@belowrulesep=\dimen274
-\@thisruleclass=\count305
-\@lastruleclass=\count306
-\@thisrulewidth=\dimen275
+\heavyrulewidth=\dimen264
+\lightrulewidth=\dimen265
+\cmidrulewidth=\dimen266
+\belowrulesep=\dimen267
+\belowbottomsep=\dimen268
+\aboverulesep=\dimen269
+\abovetopsep=\dimen270
+\cmidrulesep=\dimen271
+\cmidrulekern=\dimen272
+\defaultaddspace=\dimen273
+\@cmidla=\count304
+\@cmidlb=\count305
+\@aboverulesep=\dimen274
+\@belowrulesep=\dimen275
+\@thisruleclass=\count306
+\@lastruleclass=\count307
+\@thisrulewidth=\dimen276
 ))
 (./sphinxlatexnumfig.sty
-File: sphinxlatexnumfig.sty 2021/01/27 numbering
+Package: sphinxlatexnumfig 2024/07/31 v8.1.0 numbering
 ) (./sphinxlatexlists.sty
-File: sphinxlatexlists.sty 2021/12/20 lists
-\spx@lineitemlabel=\toks32
+Package: sphinxlatexlists 2021/12/20 lists
+\spx@lineitemlabel=\toks33
 )
-\c@sphinxscope=\count307
- (./sphinxpackagefootnote.sty
-Package: sphinxpackagefootnote 2024/05/17 v7.3.x Sphinx custom footnotehyper pa
-ckage (Sphinx team)
-\FNH@notes=\box118
-\FNH@toks=\toks33
-\FNH@width=\dimen276
-\c@sphinxfootnotemark=\count308
-) (./sphinxlatexindbibtoc.sty
-File: sphinxlatexindbibtoc.sty 2021/01/27 index, bib., toc
+\c@sphinxscope=\count308
+ (./sphinxlatexindbibtoc.sty
+Package: sphinxlatexindbibtoc 2021/01/27 index, bib., toc
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 ))
 (./sphinxlatexstylepage.sty
-File: sphinxlatexstylepage.sty 2021/01/27 page styling
+Package: sphinxlatexstylepage 2021/01/27 page styling
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
-Rollback for package 'parskip' requested -> version 'v1'.
-         This corresponds to the release introduced on 2001-04-09.
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/parskip/parskip-2001-04-09.sty
-Package: parskip 2001/04/09 non-zero parskip adjustments
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count309
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -540,7 +539,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip78
 ))
 (./sphinxlatexstyleheadings.sty
-File: sphinxlatexstyleheadings.sty 2023/02/11 headings
+Package: sphinxlatexstyleheadings 2023/02/11 headings
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
@@ -555,9 +554,9 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthfirst=\dimen281
 ))
 (./sphinxlatexstyletext.sty
-File: sphinxlatexstyletext.sty 2024/07/01 v7.4.0 text styling
+Package: sphinxlatexstyletext 2024/07/28 v8.1.0 text styling
 ) (./sphinxlatexobjects.sty
-File: sphinxlatexobjects.sty 2023/07/23 documentation environments
+Package: sphinxlatexobjects 2023/07/23 documentation environments
 \sphinxsignaturesep=\skip81
 \sphinxsignaturelistskip=\skip82
 \py@argswidth=\skip83
@@ -573,9 +572,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count309
-\Gm@cntv=\count310
-\c@Gm@tempcnt=\count311
+\Gm@cnth=\count310
+\Gm@cntv=\count311
+\c@Gm@tempcnt=\count312
 \Gm@bindingoffset=\dimen282
 \Gm@wd@mp=\dimen283
 \Gm@odd@mp=\dimen284
@@ -622,16 +621,12 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count312
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count313
+\c@section@level=\count313
 )
 \@linkdim=\dimen290
 \Hy@linkcounter=\count314
 \Hy@pagecounter=\count315
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
@@ -728,7 +723,7 @@ Package: sphinxmessages 2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)
 
 
 Writing index file SemiconductorPhysics.idx
-LaTeX Font Info:    Trying to load font information for T1+qtm on input line 77
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 76
 .
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
@@ -741,24 +736,24 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 (./SemiconductorPhysics.aux)
 \openout1 = `SemiconductorPhysics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -836,25 +831,25 @@ tawesome5
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 76.
 (./SemiconductorPhysics.out) (./SemiconductorPhysics.out)
 \@outlinefile=\write5
 \openout5 = `SemiconductorPhysics.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 85.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 85
+Package hyperref Info: Option `pageanchor' set `false' on input line 84.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 84
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -876,41 +871,31 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}] [2
 
 ]
 Chapter 1.
-[1
+(./SemiconductorPhysics.ind) [1
 
-] [2
-
-]
-Chapter 2.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 1
-54.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-)
-(./SemiconductorPhysics.ind) [3{/usr/local/texlive/2024/texmf-dist/fonts/enc/dv
-ips/tex-gyre/q-ts1.enc}] (./SemiconductorPhysics.aux)
+] (./SemiconductorPhysics.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `SemiconductorPhysics.out' has not changed.
-(rerunfilecheck)             Checksum: CD7BA36DBAD01CF451B489B27EFE1157;1338.
+(rerunfilecheck)             Checksum: 0AFFB62F4C29B23A6F167CD5ABFFA1A0;771.
  ) 
 Here is how much of TeX's memory you used:
- 19441 strings out of 474104
- 341890 string characters out of 5743468
- 1931493 words of memory out of 5000000
- 41411 multiletter control sequences out of 15000+600000
- 599318 words of font info for 70 fonts, out of 8000000 for 9000
+ 19719 strings out of 474104
+ 352332 string characters out of 5743468
+ 1930493 words of memory out of 5000000
+ 41702 multiletter control sequences out of 15000+600000
+ 598942 words of font info for 69 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,11n,79p,348b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,83p,1209b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb>
-Output written on SemiconductorPhysics.pdf (7 pages, 85400 bytes).
+Output written on SemiconductorPhysics.pdf (5 pages, 79388 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
