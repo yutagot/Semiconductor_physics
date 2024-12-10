@@ -67,7 +67,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fncychap/fncychap.sty
 INPUT sphinx.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -77,6 +76,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 INPUT ./sphinxoptionshyperref.sty
 INPUT ./sphinxoptionshyperref.sty
 INPUT sphinxoptionshyperref.sty
@@ -271,6 +272,17 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def
 INPUT ./SemiconductorPhysics.out
 INPUT ./SemiconductorPhysics.out
 INPUT SemiconductorPhysics.out
@@ -336,8 +348,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT SemiconductorPhysics.toc
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd

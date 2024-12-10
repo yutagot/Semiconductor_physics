@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the world of semiconuctor physics !
+Physics of semiconductors
 ================================================
 
 #######
@@ -13,9 +13,14 @@ Index
 .. toctree::
    :caption: Contents:
 
+   ./Basic_physics_of_semiconductors
+   ./Basic_equation
    ./Schottky_barrier
-   ./Current_trasport
+   ./MIS_structure
    ./MIS_capacitor
+   ./Bipolar_transistor
+   ./MOSFET
+
 
 Indices and tables
 ==================
@@ -27,4 +32,4 @@ Indices and tables
 
 This documentation explains semiconuctor physics. 
 There will be updates soon!!
-Stay tuned...
+Stay tuned.
