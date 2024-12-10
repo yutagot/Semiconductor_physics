@@ -1,4 +1,4 @@
-MIS (Metal-Insulator-Semiconductor) capacitor
-==================================================
+MIS capacitor
+=================
 
 This document is in progress

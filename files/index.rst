@@ -9,7 +9,6 @@ Physics of semiconductors
 #######
 Index
 #######
-
 .. toctree::
    :caption: Contents:
 
@@ -20,7 +19,6 @@ Index
    ./MIS_capacitor
    ./Bipolar_transistor
    ./MOSFET
-
 
 Indices and tables
 ==================
