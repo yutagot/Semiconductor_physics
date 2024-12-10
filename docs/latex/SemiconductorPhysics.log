@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  10 DEC 2024 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  10 DEC 2024 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,20 +894,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `SemiconductorPhysics.out' has not changed.
-(rerunfilecheck)             Checksum: A7EFF0634D4F9A2F1AC12575A76094CC;1169.
+(rerunfilecheck)             Checksum: CD7BA36DBAD01CF451B489B27EFE1157;1338.
  ) 
 Here is how much of TeX's memory you used:
  19441 strings out of 474104
- 341860 string characters out of 5743468
+ 341890 string characters out of 5743468
  1931493 words of memory out of 5000000
  41411 multiletter control sequences out of 15000+600000
  599318 words of font info for 70 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,11n,79p,308b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,79p,348b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb>
-Output written on SemiconductorPhysics.pdf (7 pages, 84690 bytes).
+Output written on SemiconductorPhysics.pdf (7 pages, 85400 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream

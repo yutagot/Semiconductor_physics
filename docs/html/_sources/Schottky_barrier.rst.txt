@@ -1,4 +1,4 @@
 Schottky barrier
-=========================
+===================
 
-This document is in progress
+This documennt is in progress
