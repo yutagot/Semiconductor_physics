@@ -64,6 +64,7 @@
     % 数式番号を右側に配置
     \usepackage{amsmath}
     \usepackage{etoolbox}
+    \numberwithin{equation}{section}
     \makeatletter
     \patchcmd{\@eqnnum}{\hbox}{\hbox to\displaywidth{\hfill} \hbox}{}{}
     \makeatother
