@@ -22,3 +22,5 @@ Index
 This documentation explains semiconuctor physics. 
 There will be updates soon!!
 Stay tuned.
+
+:download:`download <../docs/latex/SemiconductorPhysics.pdf>`

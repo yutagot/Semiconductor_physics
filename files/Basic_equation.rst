@@ -100,3 +100,5 @@ The last equalities about :math:`E_{Fn}` and :math:`E_{Fp}` do not hold any more
 
 Continuity equations
 ----------------------------
+
+While the above current-density equations hold for steady-state conditions, the continuity equations deal with time-dependent states such as low-level injection, generation, and recombination.

@@ -67,7 +67,7 @@
     
 
 \title{Semiconductor Physics Documentation}
-\date{Dec 10, 2024}
+\date{Dec 11, 2024}
 \release{}
 \author{Y.G}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -96,16 +96,137 @@
 
 \section{Basic physics of semiconductors}
 \label{\detokenize{Basic_physics_of_semiconductors:basic-physics-of-semiconductors}}\label{\detokenize{Basic_physics_of_semiconductors::doc}}
-\sphinxAtStartPar
-This document is in progress
+\sphinxstepscope
 
+
+\subsection{Strain calculation}
+\label{\detokenize{strain_calculation:strain-calculation}}\label{\detokenize{strain_calculation::doc}}
+\sphinxstepscope
+
+
+\subsection{Band theory}
+\label{\detokenize{band_theory:band-theory}}\label{\detokenize{band_theory::doc}}
 \sphinxstepscope
 
 
 \section{Basic equations}
 \label{\detokenize{Basic_equation:basic-equations}}\label{\detokenize{Basic_equation::doc}}
 \sphinxAtStartPar
-This document is in progress
+In this section, we introduce some basic equations related to semiconductor devices.
+
+\begin{sphinxcontents}
+\sphinxstylecontentstitle{Index}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{Basic_equation:id1}}{\hyperref[\detokenize{Basic_equation:basic-equations}]{\sphinxcrossref{Basic equations}}}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{Basic_equation:id2}}{\hyperref[\detokenize{Basic_equation:poisson-equation}]{\sphinxcrossref{Poisson equation}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{Basic_equation:id3}}{\hyperref[\detokenize{Basic_equation:current-density-equations}]{\sphinxcrossref{Current\sphinxhyphen{}density equations}}}
+
+\item {} 
+\sphinxAtStartPar
+\phantomsection\label{\detokenize{Basic_equation:id4}}{\hyperref[\detokenize{Basic_equation:continuity-equations}]{\sphinxcrossref{Continuity equations}}}
+
+\end{itemize}
+
+\end{itemize}
+\end{sphinxcontents}
+
+
+\subsection{Poisson equation}
+\label{\detokenize{Basic_equation:poisson-equation}}
+\sphinxAtStartPar
+The electrostatic potential can be calculated with the corresponding charge distribution \(\rho\) with Poisson equation.
+\begin{equation*}
+\begin{split}\nabla \cdot \left(\varepsilon_s \nabla\Psi\right) = -\rho,\tag{1}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+where \(\varepsilon_s\) is the dielectric permittivity and \(\varepsilon_s = 11.9 \varepsilon_0\) for Si.
+\(\Psi\) is the electrostatic potential.
+The electric charge density in a semiconductor is given by the summation of the electron charge density \(n\), the hole charge density \(p\), and the ionized impurity doping density \(D\).
+Therefore,
+\begin{equation*}
+\begin{split}\rho = q(n - p + D),\tag{2}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+where \(q\) is the elementary charge.
+Note that \(D\) consists of the ionized acceptor and donor type impurity densities, which mean \(D = N_A - N_D\).
+
+\sphinxAtStartPar
+Thus, Eq. 1 can be expressed as following,
+\begin{equation*}
+\begin{split}\nabla^2\Psi = -\frac{q(n - p + N_A - N_D)}{\varepsilon_s}\tag{3}.\end{split}
+\end{equation*}
+\sphinxAtStartPar
+The left side can be rewritten in the orthogonal coordinate system,
+\begin{equation*}
+\begin{split}\nabla^2\Psi(x, y, z) = \frac{\partial^2\Psi}{\partial x^2} + \frac{\partial^2\Psi}{\partial y^2} + \frac{\partial^2\Psi}{\partial z^2}\tag{4}.\end{split}
+\end{equation*}
+\sphinxAtStartPar
+For a 1D problem, Eq. 4 can be reduced to
+\begin{equation*}
+\begin{split}\frac{d^2\Psi_i}{d x^2} = -\frac{d\xi}{dx} = -\frac{\rho}{\varepsilon_s} =  -\frac{q(n - p + N_A - N_D)}{\varepsilon_s},\tag{5}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+Of course, \(\xi = - \nabla\Psi\) holds in Eq. 5.
+
+\sphinxAtStartPar
+Poisson equation is often used to determine the distributions of electrostatic potential and electric field caused by a charge density \(\rho\).
+
+
+\subsection{Current\sphinxhyphen{}density equations}
+\label{\detokenize{Basic_equation:current-density-equations}}
+\sphinxAtStartPar
+The common current equation consists of the drift component, caused by the electric field, and the diffusion component, caused by the gradient of the carrier concentration.
+The current density equations are below,
+\begin{equation*}
+\begin{split}\mathbf{J_n} = q\mu_nn\xi + qD_n\nabla n,\tag{6}\end{split}
+\end{equation*}\begin{equation*}
+\begin{split}\mathbf{J_p} = q\mu_pp\xi - qD_p\nabla p,\tag{7}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+and
+\begin{equation*}
+\begin{split}\mathbf{J_{conduction}} = \mathbf{J_n} + \mathbf{J_p},\tag{8}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+where \(\mathbf{J_n}\) and \(\mathbf{J_p}\) are the electron and hole current densities, respectively.
+\(\mu_n\) and \(\mu_ p\) are the electron and hole mobilities.
+For nondegenerate semiconductors, the carrier diffusion constants (\(D_n\) and \(D_p\)) and the mobilities are given by the Einstein relation,
+\begin{equation*}
+\begin{split}D_n = \frac{kT}{q}\mu_n,\tag{9}\end{split}
+\end{equation*}\begin{equation*}
+\begin{split}D_p = \frac{kT}{q}\mu_p.\tag{10}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+Therefore, for a 1D case, Eqs. 6 and 7 can be reduced to
+\begin{equation*}
+\begin{split}J_n = q\mu_nn\xi + qD_n\frac{dn}{dx} = q\mu_n\left(n\xi + \frac{kT}{q}\frac{dn}{dx}\right) = \mu_nn\frac{dE_{Fn}}{dx},\tag{11}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+and
+\begin{equation*}
+\begin{split}J_p = q\mu_pp\xi - qD_p\frac{dp}{dx} = q\mu_p\left(p\xi - \frac{kT}{q}\frac{dp}{dx}\right) = \mu_pp\frac{dE_{Fp}}{dx},\tag{12}\end{split}
+\end{equation*}
+\sphinxAtStartPar
+where \(E_{Fn}\) and \(E_{Fp}\) are quasi Fermi levels for electrons and holes, respectively.
+
+\sphinxAtStartPar
+Note that these equations are valid for low electric field \(\xi\).
+If the electric field is sufficiently high, the term \(\mu_n\xi\) or \(\mu_p\xi\) should be replaced by the saturation velocity \(v_s\).
+The last equalities about \(E_{Fn}\) and \(E_{Fp}\) do not hold any more either.
+
+
+\subsection{Continuity equations}
+\label{\detokenize{Basic_equation:continuity-equations}}
+\sphinxAtStartPar
+While the above current\sphinxhyphen{}density equations hold for steady\sphinxhyphen{}state conditions, the continuity equations deal with time\sphinxhyphen{}dependent states such as low\sphinxhyphen{}level injection, generation, and recombination.
 
 \sphinxstepscope
 
@@ -135,6 +256,9 @@ This document is in progress
 This documentation explains semiconuctor physics.
 There will be updates soon!!
 Stay tuned.
+
+\sphinxAtStartPar
+\sphinxcode{\sphinxupquote{download}}
 
 
 
