@@ -31,7 +31,7 @@ language = 'en'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-html_css_files = ['header.css', 'table.css']
+html_css_files = ['header.css', 'table.css',  'custom.css']
 # -- Options for LaTeX output ------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-latex-output
 
@@ -55,3 +55,15 @@ latex_documents = [
     (master_doc, 'SemiconductorPhysics.tex', 'Semiconductor Physics Documentation',
      'Y.G', 'manual'),
 ]
+
+latex_elements = {
+    'preamble': r'''
+    % 数式番号を右側に配置
+    \usepackage{amsmath}
+    \usepackage{etoolbox}
+    \makeatletter
+    \patchcmd{\@eqnnum}{\hbox}{\hbox to\displaywidth{\hfill} \hbox}{}{}
+    \makeatother
+    '''
+}
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  11 DEC 2024 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  11 DEC 2024 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,7 +723,7 @@ Package: sphinxmessages 2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)
 
 
 Writing index file SemiconductorPhysics.idx
-LaTeX Font Info:    Trying to load font information for T1+qtm on input line 76
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 79
 .
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
@@ -736,24 +736,24 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 (./SemiconductorPhysics.aux)
 \openout1 = `SemiconductorPhysics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -801,20 +801,28 @@ tawesome5
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-37.0pt
 * \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset2.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -831,360 +839,71 @@ tawesome5
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 79.
+(./SemiconductorPhysics.out) (./SemiconductorPhysics.out)
 \@outlinefile=\write5
 \openout5 = `SemiconductorPhysics.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 84.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 84
-.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+Package hyperref Info: Option `pageanchor' set `false' on input line 87.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 87.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
-
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
-
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}] [2
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}] [2
 
 
-]
-No file SemiconductorPhysics.toc.
+] (./SemiconductorPhysics.toc)
 \tf@toc=\write6
 \openout6 = `SemiconductorPhysics.toc'.
 
-[1
+ [1
 
 ] [2
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 1
-20.
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 123.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-)
+) [1
 
-LaTeX Warning: Hyper reference `Basic_equation:basic-equations' on page 1 undef
-ined on input line 122.
-
-
-LaTeX Warning: Hyper reference `Basic_equation:poisson-equation' on page 1 unde
-fined on input line 126.
-
-
-LaTeX Warning: Hyper reference `Basic_equation:current-density-equations' on pa
-ge 1 undefined on input line 130.
-
-
-LaTeX Warning: Hyper reference `Basic_equation:continuity-equations' on page 1 
-undefined on input line 134.
-
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...bla\Psi\right) = -\rho,\tag{1}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...bla\Psi\right) = -\rho,\tag{1}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 ...it}\rho = q(n - p + D),\tag{2}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 ...it}\rho = q(n - p + D),\tag{2}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...- N_D)}{\varepsilon_s}\tag{3}.\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...- N_D)}{\varepsilon_s}\tag{3}.\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...l^2\Psi}{\partial z^2}\tag{4}.\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...l^2\Psi}{\partial z^2}\tag{4}.\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...- N_D)}{\varepsilon_s},\tag{5}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...- N_D)}{\varepsilon_s},\tag{5}\end{split}
-                                                  
-? 
-[1
-
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 ...u_nn\xi + qD_n\nabla n,\tag{6}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 ...u_nn\xi + qD_n\nabla n,\tag{6}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...u_pp\xi - qD_p\nabla p,\tag{7}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...u_pp\xi - qD_p\nabla p,\tag{7}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...bf{J_n} + \mathbf{J_p},\tag{8}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...bf{J_n} + \mathbf{J_p},\tag{8}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ..._n = \frac{kT}{q}\mu_n,\tag{9}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ..._n = \frac{kT}{q}\mu_n,\tag{9}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 ...p = \frac{kT}{q}\mu_p.\tag{10}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 ...p = \frac{kT}{q}\mu_p.\tag{10}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 ..._nn\frac{dE_{Fn}}{dx},\tag{11}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 ..._nn\frac{dE_{Fn}}{dx},\tag{11}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ..._pp\frac{dE_{Fp}}{dx},\tag{12}\end{split}
-                                                  
-? 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ..._pp\frac{dE_{Fp}}{dx},\tag{12}\end{split}
-                                                  
-? 
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 2
-61.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/t1txtt.fd
+{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2]
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 264.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-)
-No file SemiconductorPhysics.ind.
-[2] (./SemiconductorPhysics.aux)
+) (./SemiconductorPhysics.ind) [3] (./SemiconductorPhysics.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `SemiconductorPhysics.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SemiconductorPhysics.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  244FCE729D5A6CDB1AE33942DECAE1F2;1543.
+Package rerunfilecheck Info: File `SemiconductorPhysics.out' has not changed.
+(rerunfilecheck)             Checksum: 244FCE729D5A6CDB1AE33942DECAE1F2;1543.
  ) 
 Here is how much of TeX's memory you used:
- 19829 strings out of 474104
- 354248 string characters out of 5743468
- 1942493 words of memory out of 5000000
- 41790 multiletter control sequences out of 15000+600000
+ 19879 strings out of 474104
+ 355699 string characters out of 5743468
+ 1944493 words of memory out of 5000000
+ 41817 multiletter control sequences out of 15000+600000
  609231 words of font info for 77 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,16n,83p,1209b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2024/texmf-dis
-t/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on SemiconductorPhysics.pdf (6 pages, 176513 bytes).
+ 72i,16n,83p,1290b,517s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on SemiconductorPhysics.pdf (7 pages, 180526 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

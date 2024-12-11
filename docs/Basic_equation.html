@@ -11,6 +11,7 @@
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=7ab3649f" />
       <link rel="stylesheet" type="text/css" href="_static/header.css?v=b1fa65d9" />
       <link rel="stylesheet" type="text/css" href="_static/table.css?v=385f166d" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=35cf2748" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
@@ -100,52 +101,52 @@
 <section id="poisson-equation">
 <h2><a class="toc-backref" href="#id2" role="doc-backlink"><span class="section-number">2.1. </span>Poisson equation</a><a class="headerlink" href="#poisson-equation" title="Link to this heading"></a></h2>
 <p>The electrostatic potential can be calculated with the corresponding charge distribution <span class="math notranslate nohighlight">\(\rho\)</span> with Poisson equation.</p>
-<div class="math notranslate nohighlight">
-\[\nabla \cdot \left(\varepsilon_s \nabla\Psi\right) = -\rho,\tag{1}\]</div>
+<div class="math notranslate nohighlight" id="equation-poisson">
+<span class="eqno">(1)<a class="headerlink" href="#equation-poisson" title="Link to this equation"></a></span>\[\nabla \cdot \left(\varepsilon_s \nabla\Psi\right) = -\rho,\]</div>
 <p>where <span class="math notranslate nohighlight">\(\varepsilon_s\)</span> is the dielectric permittivity and <span class="math notranslate nohighlight">\(\varepsilon_s = 11.9 \varepsilon_0\)</span> for Si.
 <span class="math notranslate nohighlight">\(\Psi\)</span> is the electrostatic potential.
 The electric charge density in a semiconductor is given by the summation of the electron charge density <span class="math notranslate nohighlight">\(n\)</span>, the hole charge density <span class="math notranslate nohighlight">\(p\)</span>, and the ionized impurity doping density <span class="math notranslate nohighlight">\(D\)</span>.
 Therefore,</p>
-<div class="math notranslate nohighlight">
-\[\rho = q(n - p + D),\tag{2}\]</div>
+<div class="math notranslate nohighlight" id="equation-electric-charge">
+<span class="eqno">(2)<a class="headerlink" href="#equation-electric-charge" title="Link to this equation"></a></span>\[\rho = q(n - p + D),\]</div>
 <p>where <span class="math notranslate nohighlight">\(q\)</span> is the elementary charge.
 Note that <span class="math notranslate nohighlight">\(D\)</span> consists of the ionized acceptor and donor type impurity densities, which mean <span class="math notranslate nohighlight">\(D = N_A - N_D\)</span>.</p>
-<p>Thus, Eq. 1 can be expressed as following,</p>
-<div class="math notranslate nohighlight">
-\[\nabla^2\Psi = -\frac{q(n - p + N_A - N_D)}{\varepsilon_s}\tag{3}.\]</div>
+<p>Thus, <a class="reference internal" href="#equation-poisson">(1)</a> can be expressed as following,</p>
+<div class="math notranslate nohighlight" id="equation-poisson-electric-charge">
+<span class="eqno">(3)<a class="headerlink" href="#equation-poisson-electric-charge" title="Link to this equation"></a></span>\[\nabla^2\Psi = -\frac{q(n - p + N_A - N_D)}{\varepsilon_s}.\]</div>
 <p>The left side can be rewritten in the orthogonal coordinate system,</p>
-<div class="math notranslate nohighlight">
-\[\nabla^2\Psi(x, y, z) = \frac{\partial^2\Psi}{\partial x^2} + \frac{\partial^2\Psi}{\partial y^2} + \frac{\partial^2\Psi}{\partial z^2}\tag{4}.\]</div>
-<p>For a 1D problem, Eq. 4 can be reduced to</p>
-<div class="math notranslate nohighlight">
-\[\frac{d^2\Psi_i}{d x^2} = -\frac{d\xi}{dx} = -\frac{\rho}{\varepsilon_s} =  -\frac{q(n - p + N_A - N_D)}{\varepsilon_s},\tag{5}\]</div>
-<p>Of course, <span class="math notranslate nohighlight">\(\xi = - \nabla\Psi\)</span> holds in Eq. 5.</p>
+<div class="math notranslate nohighlight" id="equation-nabla-squared-psi">
+<span class="eqno">(4)<a class="headerlink" href="#equation-nabla-squared-psi" title="Link to this equation"></a></span>\[\nabla^2\Psi(x, y, z) = \frac{\partial^2\Psi}{\partial x^2} + \frac{\partial^2\Psi}{\partial y^2} + \frac{\partial^2\Psi}{\partial z^2}.\]</div>
+<p>For a 1D problem, <a class="reference internal" href="#equation-nabla-squared-psi">(4)</a> can be reduced to</p>
+<div class="math notranslate nohighlight" id="equation-poisson-one-dimensional">
+<span class="eqno">(5)<a class="headerlink" href="#equation-poisson-one-dimensional" title="Link to this equation"></a></span>\[\frac{d^2\Psi_i}{d x^2} = -\frac{d\xi}{dx} = -\frac{\rho}{\varepsilon_s} =  -\frac{q(n - p + N_A - N_D)}{\varepsilon_s},\]</div>
+<p>Of course, <span class="math notranslate nohighlight">\(\xi = - \nabla\Psi\)</span> holds in <a class="reference internal" href="#equation-poisson-one-dimensional">(5)</a>.</p>
 <p>Poisson equation is often used to determine the distributions of electrostatic potential and electric field caused by a charge density <span class="math notranslate nohighlight">\(\rho\)</span>.</p>
 </section>
 <section id="current-density-equations">
 <h2><a class="toc-backref" href="#id3" role="doc-backlink"><span class="section-number">2.2. </span>Current-density equations</a><a class="headerlink" href="#current-density-equations" title="Link to this heading"></a></h2>
 <p>The common current equation consists of the drift component, caused by the electric field, and the diffusion component, caused by the gradient of the carrier concentration.
 The current density equations are below,</p>
-<div class="math notranslate nohighlight">
-\[\mathbf{J_n} = q\mu_nn\xi + qD_n\nabla n,\tag{6}\]</div>
-<div class="math notranslate nohighlight">
-\[\mathbf{J_p} = q\mu_pp\xi - qD_p\nabla p,\tag{7}\]</div>
+<div class="math notranslate nohighlight" id="equation-electron-current">
+<span class="eqno">(6)<a class="headerlink" href="#equation-electron-current" title="Link to this equation"></a></span>\[\mathbf{J_n} = q\mu_nn\xi + qD_n\nabla n,\]</div>
+<div class="math notranslate nohighlight" id="equation-hole-current">
+<span class="eqno">(7)<a class="headerlink" href="#equation-hole-current" title="Link to this equation"></a></span>\[\mathbf{J_p} = q\mu_pp\xi - qD_p\nabla p\]</div>
 <p>and</p>
-<div class="math notranslate nohighlight">
-\[\mathbf{J_{conduction}} = \mathbf{J_n} + \mathbf{J_p},\tag{8}\]</div>
+<div class="math notranslate nohighlight" id="equation-total-current">
+<span class="eqno">(8)<a class="headerlink" href="#equation-total-current" title="Link to this equation"></a></span>\[\mathbf{J_{conduction}} = \mathbf{J_n} + \mathbf{J_p},\]</div>
 <p>where <span class="math notranslate nohighlight">\(\mathbf{J_n}\)</span> and <span class="math notranslate nohighlight">\(\mathbf{J_p}\)</span> are the electron and hole current densities, respectively.
 <span class="math notranslate nohighlight">\(\mu_n\)</span> and <span class="math notranslate nohighlight">\(\mu_ p\)</span> are the electron and hole mobilities.
 For nondegenerate semiconductors, the carrier diffusion constants (<span class="math notranslate nohighlight">\(D_n\)</span> and <span class="math notranslate nohighlight">\(D_p\)</span>) and the mobilities are given by the Einstein relation,</p>
-<div class="math notranslate nohighlight">
-\[D_n = \frac{kT}{q}\mu_n,\tag{9}\]</div>
-<div class="math notranslate nohighlight">
-\[D_p = \frac{kT}{q}\mu_p.\tag{10}\]</div>
-<p>Therefore, for a 1D case, Eqs. 6 and 7 can be reduced to</p>
-<div class="math notranslate nohighlight">
-\[J_n = q\mu_nn\xi + qD_n\frac{dn}{dx} = q\mu_n\left(n\xi + \frac{kT}{q}\frac{dn}{dx}\right) = \mu_nn\frac{dE_{Fn}}{dx},\tag{11}\]</div>
+<div class="math notranslate nohighlight" id="equation-electron-diffusion">
+<span class="eqno">(9)<a class="headerlink" href="#equation-electron-diffusion" title="Link to this equation"></a></span>\[D_n = \frac{kT}{q}\mu_n,\]</div>
+<div class="math notranslate nohighlight" id="equation-hole-diffusion">
+<span class="eqno">(10)<a class="headerlink" href="#equation-hole-diffusion" title="Link to this equation"></a></span>\[D_p = \frac{kT}{q}\mu_p.\]</div>
+<p>Therefore, for a 1D case, <a class="reference internal" href="#equation-electron-current">(6)</a> and <a class="reference internal" href="#equation-hole-current">(7)</a> can be reduced to</p>
+<div class="math notranslate nohighlight" id="equation-electron-current-quasi-fermi">
+<span class="eqno">(11)<a class="headerlink" href="#equation-electron-current-quasi-fermi" title="Link to this equation"></a></span>\[J_n = q\mu_nn\xi + qD_n\frac{dn}{dx} = q\mu_n\left(n\xi + \frac{kT}{q}\frac{dn}{dx}\right) = \mu_nn\frac{dE_{Fn}}{dx},\]</div>
 <p>and</p>
-<div class="math notranslate nohighlight">
-\[J_p = q\mu_pp\xi - qD_p\frac{dp}{dx} = q\mu_p\left(p\xi - \frac{kT}{q}\frac{dp}{dx}\right) = \mu_pp\frac{dE_{Fp}}{dx},\tag{12}\]</div>
+<div class="math notranslate nohighlight" id="equation-hole-current-quasi-fermi">
+<span class="eqno">(12)<a class="headerlink" href="#equation-hole-current-quasi-fermi" title="Link to this equation"></a></span>\[J_p = q\mu_pp\xi - qD_p\frac{dp}{dx} = q\mu_p\left(p\xi - \frac{kT}{q}\frac{dp}{dx}\right) = \mu_pp\frac{dE_{Fp}}{dx},\]</div>
 <p>where <span class="math notranslate nohighlight">\(E_{Fn}\)</span> and <span class="math notranslate nohighlight">\(E_{Fp}\)</span> are quasi Fermi levels for electrons and holes, respectively.</p>
 <p>Note that these equations are valid for low electric field <span class="math notranslate nohighlight">\(\xi\)</span>.
 If the electric field is sufficiently high, the term <span class="math notranslate nohighlight">\(\mu_n\xi\)</span> or <span class="math notranslate nohighlight">\(\mu_p\xi\)</span> should be replaced by the saturation velocity <span class="math notranslate nohighlight">\(v_s\)</span>.
