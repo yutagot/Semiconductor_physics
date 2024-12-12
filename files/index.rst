@@ -16,6 +16,7 @@ Index
    ./Basic_physics_of_semiconductors
    ./Basic_equation
    ./MIS_structure
+   ./MIS_capacitor
    ./Bipolar_transistor
    ./MOSFET
 
