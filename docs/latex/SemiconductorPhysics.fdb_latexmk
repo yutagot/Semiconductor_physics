@@ -1,12 +1,11 @@
 # Fdb version 4
-["makeindex SemiconductorPhysics.idx"] 1733900805.54292 "SemiconductorPhysics.idx" "SemiconductorPhysics.ind" "SemiconductorPhysics" 1733982373.05498 0
-  "SemiconductorPhysics.idx" 1733982372.57399 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex SemiconductorPhysics.idx"] 1734576161.58053 "SemiconductorPhysics.idx" "SemiconductorPhysics.ind" "SemiconductorPhysics" 1734576162.69375 0
+  "SemiconductorPhysics.idx" 1734576162.27266 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "SemiconductorPhysics.ilg"
   "SemiconductorPhysics.ind"
   (rewritten before read)
-["pdflatex"] 1733982371.87933 "/Users/gotouyuuta/Desktop/semiconductor_physics/Semiconductor_physics/docs/latex/SemiconductorPhysics.tex" "SemiconductorPhysics.pdf" "SemiconductorPhysics" 1733982373.05621 0
-  "/Users/gotouyuuta/Desktop/semiconductor_physics/Semiconductor_physics/docs/latex/SemiconductorPhysics.tex" 1733982369.6752 9956 1bc37ec40ef6fb3c275150a570e2f044 ""
+["pdflatex"] 1734576161.69864 "SemiconductorPhysics.tex" "SemiconductorPhysics.pdf" "SemiconductorPhysics" 1734576162.69413 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1529098226 2457 aaabbccba4df2a7f7371410ee4e075a3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1529098226 3124 3813fd4c981d99822890a2861b0d274c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -42,6 +41,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb" 1257299502 112164 176018dd42fcc60204173fa10e357da5 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb" 1255129411 131776 4be3e220f990dc716f91bb7965c09237 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb" 1255129411 133302 8dca243a80ecf4cfe00077d4bd995bd7 ""
@@ -158,13 +158,13 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711949322 5474190 6dcabce74a8cc1ac6c708b578cc057af ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1717756544 8222907 98eca228795e87ea3ffe9e5428d724a6 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "SemiconductorPhysics.aux" 1733982372.91823 5197 98ea35e68079475ef9a6cb1b1bf8d218 "pdflatex"
-  "SemiconductorPhysics.ind" 1733900805.64385 0 d41d8cd98f00b204e9800998ecf8427e "makeindex SemiconductorPhysics.idx"
-  "SemiconductorPhysics.out" 1733982372.92179 1666 d3d7d322c7eb09de009741303bd29e06 "pdflatex"
-  "SemiconductorPhysics.tex" 1733982369.6752 9956 1bc37ec40ef6fb3c275150a570e2f044 ""
-  "SemiconductorPhysics.toc" 1733982372.9239 1002 fc3172235a14c3a915719e905f28606f "pdflatex"
+  "SemiconductorPhysics.aux" 1734576162.57076 7203 eaf571abf513e42c7b1016e225a087e3 "pdflatex"
+  "SemiconductorPhysics.ind" 1734576161.69375 0 d41d8cd98f00b204e9800998ecf8427e "makeindex SemiconductorPhysics.idx"
+  "SemiconductorPhysics.out" 1734576162.57326 2596 08bc6040ca120119fc33d12341b62c82 "pdflatex"
+  "SemiconductorPhysics.tex" 1734576159.26766 12995 1dbc446d3e0f8793ea749f87356e1ef5 ""
+  "SemiconductorPhysics.toc" 1734576162.57527 1412 04f58e81514e843ac2abcef80835f7e5 "pdflatex"
   "sphinx.sty" 1733813745.89252 54119 967a674353157928503df7cae9b6165e ""
-  "sphinxhighlight.sty" 1733982369.37804 7553 83fb52292c17957d9f4aadcb28c57a87 ""
+  "sphinxhighlight.sty" 1734576159.10228 7553 83fb52292c17957d9f4aadcb28c57a87 ""
   "sphinxlatexadmonitions.sty" 1733813745.89309 19110 2855832b1a32f04033523b9919260ac9 ""
   "sphinxlatexcontainers.sty" 1733813745.89322 900 d61f923db071a7b54d3cee8a1e6935d3 ""
   "sphinxlatexgraphics.sty" 1733813745.89335 4918 c9266041d02bc615d54b890e96e3acd3 ""
@@ -179,7 +179,7 @@
   "sphinxlatexstyletext.sty" 1733813745.89492 6759 9e932c65374cfb62686485d331bc975c ""
   "sphinxlatextables.sty" 1733813745.89525 57643 7f1013c2fa11942370d867527bdda568 ""
   "sphinxmanual.cls" 1733813745.89539 4241 7b0d7a37df7b5715fb0dbd585c52ecdb ""
-  "sphinxmessages.sty" 1733982369.68719 745 3f5fcd6cdd7964ed608767954a8ced6f ""
+  "sphinxmessages.sty" 1734576159.27887 745 3f5fcd6cdd7964ed608767954a8ced6f ""
   "sphinxoptionsgeometry.sty" 1733813745.89552 2060 6c27b3eba37bde592ae8908ab2c1ac0f ""
   "sphinxoptionshyperref.sty" 1733813745.89565 1093 e468489bae7631a7f387b4b0f7bc15d4 ""
   "sphinxpackageboxes.sty" 1733813745.89587 36106 1be2053eb1cb9b083b3a75e3657bcb24 ""

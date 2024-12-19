@@ -22,6 +22,10 @@ h3 {
     background-color: #13adb5; /* サイドバー検索の背景色 */
 }
 
+.wy-nav-top {
+    background-color: #13adb5; /* トップナビゲーションバーの背景色 */
+}
+
 a {
     color: #13adb5; /* リンクの色 */
 }

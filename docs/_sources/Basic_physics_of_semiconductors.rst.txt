@@ -5,3 +5,4 @@ Basic physics of semiconductors
 
    ./strain_calculation
    ./band_theory
+   ./Generation_and_recombination

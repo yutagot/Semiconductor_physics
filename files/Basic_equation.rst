@@ -1,3 +1,5 @@
+.. _basic_equation:
+
 Basic equations
 =========================================
 
@@ -106,6 +108,7 @@ and
 
 where :math:`E_{Fn}` and :math:`E_{Fp}` are quasi Fermi levels for electrons and holes, respectively.
 
+These equations indicate that no electron or hole current run in the region where the quasi Fermi level is constant over x.
 Note that these equations are valid for low electric field :math:`\xi`.
 If the electric field is sufficiently high, the term :math:`\mu_n\xi` or :math:`\mu_p\xi` should be replaced by the saturation velocity :math:`v_s`.
 The last equalities about :math:`E_{Fn}` and :math:`E_{Fp}` do not hold any more either.
@@ -114,3 +117,39 @@ Continuity equations
 ----------------------------
 
 While the above current-density equations hold for steady-state conditions, the continuity equations deal with time-dependent states such as low-level injection, generation, and recombination.
+You can see :ref:`generation_and_recombination` for further information about recombination and generation.
+The net change of carrier concentration is the difference between generation and recombination, plus the net current flowing in and out of the region of interest.
+
+.. math::
+   :label: electron_current_continuity
+
+   \frac{\partial n}{\partial t} = G_n - U_n + \frac{1}{q}\nabla \cdot \mathbf{J_n},
+
+.. math::
+   :label: hole_current_continuity
+
+   \frac{\partial n}{\partial t} = G_n - U_n + \frac{1}{q}\nabla \cdot \mathbf{J_n},
+
+where :math:`G_n` and :math:`G_p` are the electron and hole generation rate (:math:`\mathrm{cm}^{-3}\mathrm{s}^{-1}`), respectively.
+:math:`U_n` and :math:`U_p` are the electron and hole recombination rate (:math:`\mathrm{cm}^{-3}\mathrm{s}^{-1}`), which have the following relations,
+
+.. math::
+   :label: electron_recombination_lifetime
+
+   U_n = \frac{\Delta n}{\tau_n},
+
+
+.. math::
+   :label: hole_recombination_lifetime
+
+   U_p = \frac{\Delta p}{\tau_p}.
+
+
+
+For more details, refer to :cite:`sze2006`.
+
+.. bibliography::
+   :style: plain
+
+
+last update: |today|

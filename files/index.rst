@@ -12,6 +12,8 @@ Index
 
 .. toctree::
    :numbered:
+   :maxdepth: 2
+
 
    ./Basic_physics_of_semiconductors
    ./Basic_equation

@@ -1,3 +1,5 @@
+.. _basic_equation:
+
 Basic equations
 =========================================
 
@@ -114,3 +116,12 @@ Continuity equations
 ----------------------------
 
 While the above current-density equations hold for steady-state conditions, the continuity equations deal with time-dependent states such as low-level injection, generation, and recombination.
+You can see :ref:`generation_and_recombination` for further information about recombination and generation.
+The net change of carrier concentration is the difference between generation and recombination, plus the net current flowing in and out of the region of interest.
+
+.. math::
+   :label: electron_current_continuity
+
+   \frac{\partial n}{\partial t} = G_n - U_n + \frac{1}{q}\nabla \cdot \mathbf{J_n},
+
+For more details, refer to :cite:`sze2006` yes.

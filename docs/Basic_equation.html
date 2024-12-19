@@ -9,7 +9,7 @@
   <title>2. Basic equations &mdash; Semicondutor physics  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=7ab3649f" />
-      <link rel="stylesheet" type="text/css" href="_static/header.css?v=b1fa65d9" />
+      <link rel="stylesheet" type="text/css" href="_static/header.css?v=a2f05f12" />
       <link rel="stylesheet" type="text/css" href="_static/table.css?v=385f166d" />
       <link rel="stylesheet" type="text/css" href="_static/custom.css?v=35cf2748" />
 
@@ -24,7 +24,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="3. MIS structure" href="MIS_structure.html" />
-    <link rel="prev" title="1.2. Band theory" href="band_theory.html" /> 
+    <link rel="prev" title="1.3. Generation and recombination rates" href="Generation_and_recombination.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -85,22 +85,22 @@
            <div itemprop="articleBody">
              
   <section id="basic-equations">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink"><span class="section-number">2. </span>Basic equations</a><a class="headerlink" href="#basic-equations" title="Link to this heading"></a></h1>
+<span id="basic-equation"></span><h1><a class="toc-backref" href="#id2" role="doc-backlink"><span class="section-number">2. </span>Basic equations</a><a class="headerlink" href="#basic-equations" title="Link to this heading"></a></h1>
 <p>In this section, we introduce some basic equations related to semiconductor devices.</p>
 <nav class="contents" id="index">
 <p class="topic-title">Index</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#basic-equations" id="id1">Basic equations</a></p>
+<li><p><a class="reference internal" href="#basic-equations" id="id2">Basic equations</a></p>
 <ul>
-<li><p><a class="reference internal" href="#poisson-equation" id="id2">Poisson equation</a></p></li>
-<li><p><a class="reference internal" href="#current-density-equations" id="id3">Current-density equations</a></p></li>
-<li><p><a class="reference internal" href="#continuity-equations" id="id4">Continuity equations</a></p></li>
+<li><p><a class="reference internal" href="#poisson-equation" id="id3">Poisson equation</a></p></li>
+<li><p><a class="reference internal" href="#current-density-equations" id="id4">Current-density equations</a></p></li>
+<li><p><a class="reference internal" href="#continuity-equations" id="id5">Continuity equations</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
 <section id="poisson-equation">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink"><span class="section-number">2.1. </span>Poisson equation</a><a class="headerlink" href="#poisson-equation" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink"><span class="section-number">2.1. </span>Poisson equation</a><a class="headerlink" href="#poisson-equation" title="Link to this heading"></a></h2>
 <p>The electrostatic potential can be calculated with the corresponding charge distribution <span class="math notranslate nohighlight">\(\rho\)</span> with Poisson equation.</p>
 <div class="math notranslate nohighlight" id="equation-poisson">
 <span class="eqno">(1)<a class="headerlink" href="#equation-poisson" title="Link to this equation"></a></span>\[\nabla \cdot \left(\varepsilon_s \nabla\Psi\right) = -\rho,\]</div>
@@ -125,7 +125,7 @@ Note that <span class="math notranslate nohighlight">\(D\)</span> consists of th
 <p>Poisson equation is often used to determine the distributions of electrostatic potential and electric field caused by a charge density <span class="math notranslate nohighlight">\(\rho\)</span>.</p>
 </section>
 <section id="current-density-equations">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink"><span class="section-number">2.2. </span>Current-density equations</a><a class="headerlink" href="#current-density-equations" title="Link to this heading"></a></h2>
+<h2><a class="toc-backref" href="#id4" role="doc-backlink"><span class="section-number">2.2. </span>Current-density equations</a><a class="headerlink" href="#current-density-equations" title="Link to this heading"></a></h2>
 <p>The common current equation consists of the drift component, caused by the electric field, and the diffusion component, caused by the gradient of the carrier concentration.
 The current density equations are below,</p>
 <div class="math notranslate nohighlight" id="equation-electron-current">
@@ -154,8 +154,13 @@ If the electric field is sufficiently high, the term <span class="math notransla
 The last equalities about <span class="math notranslate nohighlight">\(E_{Fn}\)</span> and <span class="math notranslate nohighlight">\(E_{Fp}\)</span> do not hold any more either.</p>
 </section>
 <section id="continuity-equations">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink"><span class="section-number">2.3. </span>Continuity equations</a><a class="headerlink" href="#continuity-equations" title="Link to this heading"></a></h2>
-<p>While the above current-density equations hold for steady-state conditions, the continuity equations deal with time-dependent states such as low-level injection, generation, and recombination.</p>
+<h2><a class="toc-backref" href="#id5" role="doc-backlink"><span class="section-number">2.3. </span>Continuity equations</a><a class="headerlink" href="#continuity-equations" title="Link to this heading"></a></h2>
+<p>While the above current-density equations hold for steady-state conditions, the continuity equations deal with time-dependent states such as low-level injection, generation, and recombination.
+You can see <a class="reference internal" href="Generation_and_recombination.html#generation-and-recombination"><span class="std std-ref">Generation and recombination rates</span></a> for further information about recombination and generation.
+The net change of carrier concentration is the difference between generation and recombination, plus the net current flowing in and out of the region of interest.</p>
+<div class="math notranslate nohighlight" id="equation-electron-current-continuity">
+<span class="eqno">(13)<a class="headerlink" href="#equation-electron-current-continuity" title="Link to this equation"></a></span>\[\frac{\partial n}{\partial t} = G_n - U_n + \frac{1}{q}\nabla \cdot \mathbf{J_n},\]</div>
+<p>For more details, refer to <span id="id1">[]</span> yes.</p>
 </section>
 </section>
 
@@ -163,7 +168,7 @@ The last equalities about <span class="math notranslate nohighlight">\(E_{Fn}\)<
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="band_theory.html" class="btn btn-neutral float-left" title="1.2. Band theory" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Generation_and_recombination.html" class="btn btn-neutral float-left" title="1.3. Generation and recombination rates" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="MIS_structure.html" class="btn btn-neutral float-right" title="3. MIS structure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

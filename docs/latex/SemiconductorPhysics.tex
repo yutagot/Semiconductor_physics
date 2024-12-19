@@ -58,7 +58,7 @@
 
 
 \usepackage{sphinxmessages}
-
+\setcounter{tocdepth}{1}
 
 
     % 数式番号を右側に配置
@@ -71,7 +71,7 @@
     
 
 \title{Semiconductor Physics Documentation}
-\date{Dec 12, 2024}
+\date{Dec 19, 2024}
 \release{}
 \author{Y.G}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -103,6 +103,26 @@
 \sphinxstepscope
 
 
+\subsection{Carrier density}
+\label{\detokenize{carrier_density:carrier-density}}\label{\detokenize{carrier_density::doc}}
+\sphinxAtStartPar
+In this page, we derive the classical and quantum mechanical carrier densities.
+
+\sphinxAtStartPar
+Classical carrier densities cannot deal with quantum effects, such as enegy quantization, and carrier leakage into a barrier.
+
+
+\subsubsection{Classical carrier density}
+\label{\detokenize{carrier_density:classical-carrier-density}}
+
+\subsubsection{Quantum mechanical carrier density}
+\label{\detokenize{carrier_density:quantum-mechanical-carrier-density}}
+\sphinxAtStartPar
+In quantum mechanics, the carrier density can be obtained by solving Schrödinger equation.
+
+\sphinxstepscope
+
+
 \subsection{Strain calculation}
 \label{\detokenize{strain_calculation:strain-calculation}}\label{\detokenize{strain_calculation::doc}}
 \sphinxstepscope
@@ -113,8 +133,13 @@
 \sphinxstepscope
 
 
+\subsection{Generation and recombination rates}
+\label{\detokenize{Generation_and_recombination:generation-and-recombination-rates}}\label{\detokenize{Generation_and_recombination:generation-and-recombination}}\label{\detokenize{Generation_and_recombination::doc}}
+\sphinxstepscope
+
+
 \section{Basic equations}
-\label{\detokenize{Basic_equation:basic-equations}}\label{\detokenize{Basic_equation::doc}}
+\label{\detokenize{Basic_equation:basic-equations}}\label{\detokenize{Basic_equation:basic-equation}}\label{\detokenize{Basic_equation::doc}}
 \sphinxAtStartPar
 In this section, we introduce some basic equations related to semiconductor devices.
 
@@ -123,19 +148,19 @@ In this section, we introduce some basic equations related to semiconductor devi
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
-\phantomsection\label{\detokenize{Basic_equation:id1}}{\hyperref[\detokenize{Basic_equation:basic-equations}]{\sphinxcrossref{Basic equations}}}
+\phantomsection\label{\detokenize{Basic_equation:id4}}{\hyperref[\detokenize{Basic_equation:basic-equations}]{\sphinxcrossref{Basic equations}}}
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
-\phantomsection\label{\detokenize{Basic_equation:id2}}{\hyperref[\detokenize{Basic_equation:poisson-equation}]{\sphinxcrossref{Poisson equation}}}
+\phantomsection\label{\detokenize{Basic_equation:id5}}{\hyperref[\detokenize{Basic_equation:poisson-equation}]{\sphinxcrossref{Poisson equation}}}
 
 \item {} 
 \sphinxAtStartPar
-\phantomsection\label{\detokenize{Basic_equation:id3}}{\hyperref[\detokenize{Basic_equation:current-density-equations}]{\sphinxcrossref{Current\sphinxhyphen{}density equations}}}
+\phantomsection\label{\detokenize{Basic_equation:id6}}{\hyperref[\detokenize{Basic_equation:current-density-equations}]{\sphinxcrossref{Current\sphinxhyphen{}density equations}}}
 
 \item {} 
 \sphinxAtStartPar
-\phantomsection\label{\detokenize{Basic_equation:id4}}{\hyperref[\detokenize{Basic_equation:continuity-equations}]{\sphinxcrossref{Continuity equations}}}
+\phantomsection\label{\detokenize{Basic_equation:id7}}{\hyperref[\detokenize{Basic_equation:continuity-equations}]{\sphinxcrossref{Continuity equations}}}
 
 \end{itemize}
 
@@ -222,6 +247,7 @@ and
 where \(E_{Fn}\) and \(E_{Fp}\) are quasi Fermi levels for electrons and holes, respectively.
 
 \sphinxAtStartPar
+These equations indicate that no electron or hole current run in the region where the quasi Fermi level is constant over x.
 Note that these equations are valid for low electric field \(\xi\).
 If the electric field is sufficiently high, the term \(\mu_n\xi\) or \(\mu_p\xi\) should be replaced by the saturation velocity \(v_s\).
 The last equalities about \(E_{Fn}\) and \(E_{Fp}\) do not hold any more either.
@@ -231,6 +257,26 @@ The last equalities about \(E_{Fn}\) and \(E_{Fp}\) do not hold any more either.
 \label{\detokenize{Basic_equation:continuity-equations}}
 \sphinxAtStartPar
 While the above current\sphinxhyphen{}density equations hold for steady\sphinxhyphen{}state conditions, the continuity equations deal with time\sphinxhyphen{}dependent states such as low\sphinxhyphen{}level injection, generation, and recombination.
+You can see {\hyperref[\detokenize{Generation_and_recombination:generation-and-recombination}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{Generation and recombination rates}}}}} for further information about recombination and generation.
+The net change of carrier concentration is the difference between generation and recombination, plus the net current flowing in and out of the region of interest.
+\begin{equation}\label{equation:Basic_equation:electron_current_continuity}
+\begin{split}\frac{\partial n}{\partial t} = G_n - U_n + \frac{1}{q}\nabla \cdot \mathbf{J_n},\end{split}
+\end{equation}\begin{equation}\label{equation:Basic_equation:hole_current_continuity}
+\begin{split}\frac{\partial n}{\partial t} = G_n - U_n + \frac{1}{q}\nabla \cdot \mathbf{J_n},\end{split}
+\end{equation}
+\sphinxAtStartPar
+where \(G_n\) and \(G_p\) are the electron and hole generation rate (\(\mathrm{cm}^{-3}\mathrm{s}^{-1}\)), respectively.
+\(U_n\) and \(U_p\) are the electron and hole recombination rate (\(\mathrm{cm}^{-3}\mathrm{s}^{-1}\)), which have the following relations,
+\begin{equation}\label{equation:Basic_equation:electron_recombination_lifetime}
+\begin{split}U_n = \frac{\Delta n}{\tau_n},\end{split}
+\end{equation}\begin{equation}\label{equation:Basic_equation:hole_recombination_lifetime}
+\begin{split}U_p = \frac{\Delta p}{\tau_p}.\end{split}
+\end{equation}
+\sphinxAtStartPar
+For more details, refer to {[}\hyperlink{cite.Basic_equation:id3}{1}{]}.
+
+\sphinxAtStartPar
+last update: Dec 19, 2024
 
 \sphinxstepscope
 
@@ -271,6 +317,12 @@ Stay tuned.
 
 \sphinxAtStartPar
 \sphinxcode{\sphinxupquote{download}}
+
+\begin{sphinxthebibliography}{1}
+\bibitem[1]{Basic_equation:id3}
+\sphinxAtStartPar
+S. M. Sze and Kwok K. Ng. \sphinxstyleemphasis{Physics of Semiconductor Devices}. Wiley\sphinxhyphen{}Interscience, 3rd edition, 2006. URL: \sphinxurl{https://onlinelibrary.wiley.com/doi/book/10.1002/0470068329}.
+\end{sphinxthebibliography}
 
 
 
