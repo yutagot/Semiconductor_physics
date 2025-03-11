@@ -2,3 +2,6 @@
 
 Generation and recombination rates
 =========================================
+
+.. caution::
+    This document is in progress.

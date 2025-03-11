@@ -1,4 +1,5 @@
 MOSFET
 =================
 
-This document is in progress
+.. caution::
+    This document is in progress.
