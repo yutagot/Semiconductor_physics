@@ -1,4 +1,7 @@
 MIS structure
 ================
 
-This document is in progress
+.. caution::
+    This document is in progress.
+
+MIS structure consists of three layers, which are Metal, Insulator, and Semiconductor.
